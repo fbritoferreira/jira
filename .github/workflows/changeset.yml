@@ -27,7 +27,7 @@ jobs:
       - name: Update jsr version
         run: pnpm run jsr:update-version
       - name: Publish package
-        run: pnpm dlx jsr publish --allow-dirty
+        run: pnpm dlx jsr publish --allow-dirty --allow-slow-types
 
   ci:
     name: CI
