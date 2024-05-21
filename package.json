@@ -15,7 +15,9 @@
     "test": "tsx ./src/main.ts",
     "prebuild": "rimraf ./dist",
     "build": "tsc",
-    "jsr:update-version": "tsx scripts/update-jsr-version.ts"
+    "jsr:update-version": "tsx scripts/update-jsr-version.ts",
+    "changeset": "changeset",
+    "release": "pnpm run build && pnpm run changeset publish"
   },
   "keywords": [
     "jira"
