@@ -1,0 +1,32 @@
+{
+  "name": "@fbritoferreira/jira",
+  "version": "1.0.0",
+  "description": "Typesafe Jira API client",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "homepage": "https://github.com/fbritoferreira/jira",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://github.com/fbritoferreira/jira"
+  },
+  "scripts": {
+    "pregenerate": "rimraf ./src/generated",
+    "generate": "openapi-ts",
+    "test": "tsx ./src/main.ts",
+    "prebuild": "rimraf ./dist",
+    "build": "tsc",
+    "jsr:update-version": "tsx scripts/update-jsr-version.ts"
+  },
+  "keywords": [
+    "jira"
+  ],
+  "author": "Filipe Brito Ferreira @fbritoferreira <me@fbritoferreira.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@changesets/cli": "^2.27.3",
+    "@hey-api/openapi-ts": "^0.45.1",
+    "rimraf": "^5.0.7",
+    "tsx": "^4.10.5",
+    "typescript": "^5.4.5"
+  }
+}

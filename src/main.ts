@@ -1,0 +1,1 @@
+export { JiraCloudAPI } from "./generated";
