@@ -10,7 +10,7 @@ devDependencies:
     version: 2.27.3
   '@hey-api/openapi-ts':
     specifier: ^0.46.0
-    version: 0.46.2(typescript@5.4.5)
+    version: 0.46.3(typescript@5.4.5)
   rimraf:
     specifier: ^5.0.7
     version: 5.0.7
@@ -452,8 +452,8 @@ packages:
     dev: true
     optional: true
 
-  /@hey-api/openapi-ts@0.46.2(typescript@5.4.5):
-    resolution: {integrity: sha512-ccpZ2SSSlupw+Rj3bQMmIzpoUh+Xq9N3R29LgYJfIof5d76bDjkfeO4GcBg7j1NlQcElw4G8IjrOr/FOUENNiA==}
+  /@hey-api/openapi-ts@0.46.3(typescript@5.4.5):
+    resolution: {integrity: sha512-2C0tmzUq6m9518uDMHBooqiS7wvWy9UD6SepudWU+9fB6lZvC+yxbK/viaMfwvCv4l1hKuBZZZQNP0xrNcyRsQ==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
