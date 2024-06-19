@@ -9,8 +9,8 @@ devDependencies:
     specifier: ^2.27.3
     version: 2.27.5
   '@hey-api/openapi-ts':
-    specifier: ^0.46.0
-    version: 0.46.3(typescript@5.4.5)
+    specifier: ^0.47.1
+    version: 0.47.1(typescript@5.4.5)
   rimraf:
     specifier: ^5.0.7
     version: 5.0.7
@@ -23,8 +23,8 @@ devDependencies:
 
 packages:
 
-  /@apidevtools/json-schema-ref-parser@11.6.2:
-    resolution: {integrity: sha512-ENUdLLT04aDbbHCRwfKf8gR67AhV0CdFrOAtk+FcakBAgaq6ds3HLK9X0BCyiFUz8pK9uP+k6YZyJaGG7Mt7vQ==}
+  /@apidevtools/json-schema-ref-parser@11.6.4:
+    resolution: {integrity: sha512-9K6xOqeevacvweLGik6LnZCb1fBtCOSIWQs8d096XGeqoLKC33UVMGz9+77Gw44KvbH4pKcQPWo4ZpxkXYj05w==}
     engines: {node: '>= 16'}
     dependencies:
       '@jsdevtools/ono': 7.1.3
@@ -463,14 +463,14 @@ packages:
     dev: true
     optional: true
 
-  /@hey-api/openapi-ts@0.46.3(typescript@5.4.5):
-    resolution: {integrity: sha512-2C0tmzUq6m9518uDMHBooqiS7wvWy9UD6SepudWU+9fB6lZvC+yxbK/viaMfwvCv4l1hKuBZZZQNP0xrNcyRsQ==}
+  /@hey-api/openapi-ts@0.47.1(typescript@5.4.5):
+    resolution: {integrity: sha512-msrYJeY+rfcME8qOk8IJ4nt9lxdlsFVuETB7RFGzDDtvtdShD7zaJNzk5/mRGRRhMM6IA9JSXX6PSq7RCKnHBQ==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
       typescript: ^5.x
     dependencies:
-      '@apidevtools/json-schema-ref-parser': 11.6.2
+      '@apidevtools/json-schema-ref-parser': 11.6.4
       c12: 1.10.0
       camelcase: 8.0.0
       commander: 12.1.0
