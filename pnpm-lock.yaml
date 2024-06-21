@@ -10,7 +10,7 @@ devDependencies:
     version: 2.27.5
   '@hey-api/openapi-ts':
     specifier: ^0.46.0
-    version: 0.46.3(typescript@5.4.5)
+    version: 0.46.3(typescript@5.5.2)
   rimraf:
     specifier: ^5.0.7
     version: 5.0.7
@@ -19,7 +19,7 @@ devDependencies:
     version: 4.11.0
   typescript:
     specifier: ^5.4.5
-    version: 5.4.5
+    version: 5.5.2
 
 packages:
 
@@ -463,7 +463,7 @@ packages:
     dev: true
     optional: true
 
-  /@hey-api/openapi-ts@0.46.3(typescript@5.4.5):
+  /@hey-api/openapi-ts@0.46.3(typescript@5.5.2):
     resolution: {integrity: sha512-2C0tmzUq6m9518uDMHBooqiS7wvWy9UD6SepudWU+9fB6lZvC+yxbK/viaMfwvCv4l1hKuBZZZQNP0xrNcyRsQ==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -475,7 +475,7 @@ packages:
       camelcase: 8.0.0
       commander: 12.1.0
       handlebars: 4.7.8
-      typescript: 5.4.5
+      typescript: 5.5.2
     dev: true
 
   /@isaacs/cliui@8.0.2:
@@ -2614,8 +2614,8 @@ packages:
       possible-typed-array-names: 1.0.0
     dev: true
 
-  /typescript@5.4.5:
-    resolution: {integrity: sha512-vcI4UpRgg81oIRUFwR0WSIHKt11nJ7SAVlYNIu+QpqeyXP+gpQJy/Z4+F0aGxSE4MqwjyXvW/TzgkLAx2AGHwQ==}
+  /typescript@5.5.2:
+    resolution: {integrity: sha512-NcRtPEOsPFFWjobJEtfihkLCZCXZt/os3zf8nTxjVH3RvTSxjrCamJpbExGvYOF+tFHc3pA65qpdwPbzjohhew==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
