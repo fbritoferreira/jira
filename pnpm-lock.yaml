@@ -13,7 +13,7 @@ importers:
         version: 2.27.5
       '@hey-api/openapi-ts':
         specifier: ^0.46.0
-        version: 0.46.3(typescript@5.4.5)
+        version: 0.46.3(typescript@5.5.3)
       rimraf:
         specifier: ^5.0.7
         version: 5.0.8
@@ -22,7 +22,7 @@ importers:
         version: 4.11.0
       typescript:
         specifier: ^5.4.5
-        version: 5.4.5
+        version: 5.5.3
 
 packages:
 
@@ -1409,8 +1409,8 @@ packages:
     resolution: {integrity: sha512-/OxDN6OtAk5KBpGb28T+HZc2M+ADtvRxXrKKbUwtsLgdoxgX13hyy7ek6bFRl5+aBs2yZzB0c4CnQfAtVypW/g==}
     engines: {node: '>= 0.4'}
 
-  typescript@5.4.5:
-    resolution: {integrity: sha512-vcI4UpRgg81oIRUFwR0WSIHKt11nJ7SAVlYNIu+QpqeyXP+gpQJy/Z4+F0aGxSE4MqwjyXvW/TzgkLAx2AGHwQ==}
+  typescript@5.5.3:
+    resolution: {integrity: sha512-/hreyEujaB0w76zKo6717l3L0o/qEUtRgdvUBvlkhoWeOVMjMuHNHk0BRBzikzuGDqNmPQbg5ifMEqsHLiIUcQ==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -1758,14 +1758,14 @@ snapshots:
   '@esbuild/win32-x64@0.20.2':
     optional: true
 
-  '@hey-api/openapi-ts@0.46.3(typescript@5.4.5)':
+  '@hey-api/openapi-ts@0.46.3(typescript@5.5.3)':
     dependencies:
       '@apidevtools/json-schema-ref-parser': 11.6.2
       c12: 1.10.0
       camelcase: 8.0.0
       commander: 12.1.0
       handlebars: 4.7.8
-      typescript: 5.4.5
+      typescript: 5.5.3
 
   '@isaacs/cliui@8.0.2':
     dependencies:
@@ -3047,7 +3047,7 @@ snapshots:
       is-typed-array: 1.1.13
       possible-typed-array-names: 1.0.0
 
-  typescript@5.4.5: {}
+  typescript@5.5.3: {}
 
   ufo@1.5.3: {}
 
